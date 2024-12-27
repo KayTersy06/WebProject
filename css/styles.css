@@ -3,6 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background: url('../img/clipboard-stethoscope.jpg') no-repeat center center fixed; /* Added 'fixed' for a non-scrolling background */
+    background-size: cover; /* Ensures the background image covers the entire body */
 }
 
 header {
