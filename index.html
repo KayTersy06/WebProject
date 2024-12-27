@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. T. Mashinini - Family Medicine</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Dr. T. Mashinini</h1>
+                <h2>Family Medicine</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#appointments">Appointments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="tagline">
+            <p>Health Made Simple.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h3 id="heading3">About Me</h3>
+            <div class="about-container">
+                <img src="img/360_F_316761139_yVmLRT0AVwpZwOTgpmfrdIKrtFfg0bop.jpg" alt="Dr. T. Mashinini" class="about-photo"> <!-- Placeholder for a doctor's photo -->
+                <div class="about-text">
+                    <p>Welcome to my practice! I am a board-certified family physician with over 10 years of experience in providing comprehensive healthcare to patients of all ages.</p>
+                    <h4>Qualifications</h4>
+                    <ul>
+                        <li>Doctor of Medicine (MD) - University of Health Sciences</li>
+                        <li>Board Certified in Family Medicine</li>
+                        <li>Member of the American Academy of Family Physicians</li>
+                    </ul>
+                    <h4>Experience</h4>
+                    <p>I have worked in various healthcare settings, including hospitals and private practices, where I have developed a passion for preventive care and patient education.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h3>Services</h3>
+            <div class="services-container">
+                <div class="service-item">
+                    <i class="fas fa-comments"></i> <!-- Icon for Online Consultation -->
+                    <h4>Online Consultation</h4>
+                    <p class="service-description">Consultation for non-life threatening medical conditions via video or phone.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-flask"></i> <!-- Icon for Lab Results -->
+                    <h4>Lab Results and Imaging Interpretation</h4>
+                    <p class="service-description">Comprehensive interpretation of lab results and imaging studies to guide your care.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-prescription"></i> <!-- Icon for New Prescription -->
+                    <h4>New Prescription and Script Renewals</h4>
+                    <p class="service-description">Get new prescriptions and renew existing scripts conveniently.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-user-md"></i> <!-- Icon for Specialist Referrals -->
+                    <h4>Specialist Referrals</h4>
+                    <p class="service-description">We provide referrals to trusted specialists for advanced care.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-calendar-check"></i> <!-- Icon for Booking -->
+                    <h4>Booking for Medical Exams and Tests</h4>
+                    <p class="service-description">Easily book appointments for medical exams and necessary tests.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-weight"></i> <!-- Icon for Weight Loss Program -->
+                    <h4>Weight Loss Program</h4>
+                    <p class="service-description">Join our structured weight loss program tailored to your needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="appointments">
+            <h3 id="heading3">Appointments</h3>
+            <form name="contact" method="post" data-netlify="true">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Request Appointment</button>
+            </form>
+            <div id="responseMessage" class="hidden"></div>
+        </section>
+
+        <section id="info">
+            <h3>Contact Information</h3>
+            <div class="info-container">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: <a href="mailto:drjohndoe@example.com">drjohndoe@example.com</a></p>
+                </div>
+                <!--<div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Address: 123 Health St, Wellness City, ST 12345</p>
+                </div >-->
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <p>Practice No. 1189751</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:info@drjohndoe.com">info@drjohndoe.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com/@thando.mashinini.739/" class="social-icon" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="#" class="social-icon">Instagram</a>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="#" class="social-icon">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Dr. T. Mashinini. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
